@@ -3,8 +3,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/Contactus-stylesheet.css">
-	<title>Contact us|Accountingsy</title>
+    <link rel="stylesheet" href="css/Contactus-stylesheet.css">
+	<title>FREE ONLINE DEMO|Accountingsy</title>
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -41,7 +41,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Contact us</h1>
+                        <h1>FREE ONLINE TAX CALCULATOR DEMO</h1>
                         <hr class="intro-divider">
                     </div>
                 </div>
@@ -52,59 +52,98 @@
 	 <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
-                    <h2 class="section-heading">Feel free to contact us.<br></h2>
-                    <p class="lead">Office Address: #123, some street, random area, bangalore-560076
-                        <br>Office Hours:9AM to 6PM(Monday to Saturday)
-                        <br>Landline:080-889XXXX
-                        <br>email:eng19cs0037.anupvenkat@gmail.com or eng19cs0034.anirudhpreeth@gmail.com
-                        <br>
-                    </p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="images/um5iP1p2hCwATPY.jpeg" alt="">
+                    <h2 class="section-heading">Accountingsy Basic Sales Tax Calculator(Demo).<br></h2>
+                    <body>
+                        <center>
+                          <div class="form">
+                            <h2></h5>
+                              <form name="orderform" id="orderform">
+                                <table>
+                          </div>
+                          <tr>
+                            <th>
+                              <label>Product value: </label>
+                            </th>
+                            <th scope="row">
+                              <div align="left">
+                                <label><span>₹</span></label>
+                                <input name="price" type="text" id="price" size="10">
+                              </div>
+                            </th>
+                        
+                          <tr>
+                            <th>
+                              <label>Quantity</label>
+                            </th>
+                            <th scope="row">
+                              <div align="left">
+                                <label><span>No.</span></label>
+                                <input name="quantity" type="text" id="quantity" size="10">
+                              </div>
+                            </th>
+                        
+                          <tr>
+                            <th>
+                              <label>Amount before tax:</label>
+                            </th>
+                            <th scope="row">
+                              <div align="left">
+                                <label>₹</label>
+                                <input name="subtotal" type="text" id="subtotal" onFocus="this.form.elements[1].focus()" size="10"> &nbsp;&nbsp;
+                                <input name="subBtn" onClick="subTotal();" type="button" id="subBtn" value="Subtotal">
+                              </div>
+                            </th>
+                          </tr>
+                        
+                          <tr>
+                            <th>
+                              <label>Tax (18%):</label>
+                            </th>
+                            <th scope="row">
+                              <div align="left">
+                                <label>₹</label>
+                                <input name="salestax" type="text" id="salestax" onFocus="this.form.elements[1].focus()" size="10"> &nbsp;&nbsp;
+                                <input name="taxBtn" onClick="calculateTax();" type="button" id="taxBtn" value="Tax">
+                              </div>
+                            </th>
+                          </tr>
+                        
+                          <tr>
+                            <th>
+                              <label>Total amount:</label>
+                            </th>
+                            <th scope="row">
+                              <div align="left">
+                                <label>₹</label>
+                                <input name="gtotal" type="text" id="gtotal" onFocus="this.form.elements[2].focus()" size="10"> &nbsp;&nbsp;
+                                <input name="gtotalBtn" onClick="grandTotal();" type="button" id="gtotalBtn" value="Calculate Order">
+                              </div>
+                            </th>
+                          </tr>
+                          </table>
+                          </form>
+                          </div>
+                        </center>
+                          <script  src="js/script.js"></script>
                 </div>
             </div>
         </div>
     </div>
     <div class="content-section-b">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <h2 class="section-heading">Fill a Form for a callback.</h2>
-                    <p class="lead">Don't feel comfortable or not enough time to call us?
-                        <br>No problem, just fill the form and wait for a callback from us.
-                        <br>It is as simple as that.</p>
+                <div>
+                    <h2 class="section-heading">Basic Income tax calculator (year 2020-21)(Demo)</h2>
+                    <p><ul class="list-inline banner-social-buttons">
+                      <li>
+                          <a href="../Mini_Project/demo(incometax).html" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Click here</span></a>
+                      </li>
+                  </ul>
+                </p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                 </div>
             </div>
         </div>
-        <form  action="https://accountingsy.github.io/index.html" class="clearfix">
-            <div class="col-xs-12 form-group">
-                <label class="control-label">Name of the Company:</label>
-                <input class="form-control" size="4" type="text">
-            </div>
-            <div class="col-xs-12 form-group card required">
-                <label class="control-label">Name of the person to be reached:</label>
-                <input autocomplete="off" class="form-control" size="20" type="text">
-            </div>
-            <div class="col-xs-12 form-group card required">
-                <label class="control-label">Office Address</label>
-                <input autocomplete="off" class="form-control" size="20" type="text">
-            </div>
-            <div class="col-xs-4 form-group cvc required">
-                <label class="control-label">Contact Number</label>
-                <input autocomplete="off" class="form-control" placeholder="10-digit phone number" size="4" type="text">
-            </div>
-            <div class="col-xs-4 form-group expiration required">
-                <label class="control-label">Reason for call back</label>
-                <input class="form-control" placeholder="" size="2" type="text">
-            </div>
-            <div class="col-md-12 form-group">
-                <hr>
-                <button class="form-control btn btn-primary submit-button" type="submit">Submit(after submiting, will redirect to the homepage) »</button>
-            </div>
-        </form>
     </div>
     <div class="banner">
         <div class="container">
@@ -126,7 +165,6 @@
                 </div>
             </div>
         </div>
-        <!-- /.container -->
     </div>
     <footer>
         <div class="container">
